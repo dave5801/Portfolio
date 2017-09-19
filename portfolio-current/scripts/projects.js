@@ -1,22 +1,24 @@
 'use strict';
 
-var projects = [
-  {
-    name: "Project 1",
-    description: "Learning some new Awesome Platform"
-  },
-  {
-    name: "Project 2",
-    description: "Cool Algorithms"
-  },
-  {
-    name: "Project 3",
-    description: "Coding some amazing App"
-  }
-];
+var projects = [];
 
+$.getJSON("scripts/projects.json", function(result){
+            $.each(result, function(i, field){
+                projects.push(field);
+            });
+            console.log(projects);
+            projects.forEach(function(projectObject) {
+              listOfProjects.push(new Project(projectObject));
+            });
+
+            listOfProjects.forEach(function(project) {
+                $('#portfolio-projects-display').append(project.toHtml());
+            });
+
+});
 
 var listOfProjects = [];
+
 
 //CONSTRUCTOR for projects
 function Project(project){
@@ -38,10 +40,6 @@ Project.prototype.toHtml = function(){
 };
 
 
-projects.forEach(function(projectObject) {
-  listOfProjects.push(new Project(projectObject));
-});
 
-listOfProjects.forEach(function(project) {
-    $('#portfolio-projects-display').append(project.toHtml());
-});
+
+console.log(listOfProjects);

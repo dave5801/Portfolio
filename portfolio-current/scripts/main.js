@@ -1,6 +1,11 @@
 'use strict';
 
 $(document).ready(function(){
+  tabNavigation();
+
+});
+
+var tabNavigation = function(){
   $("#about-tab").click(function(){
       $(".about-section").fadeIn();
       $(".projects-section").hide();
@@ -19,5 +24,5 @@ $(document).ready(function(){
       $(".projects-section").hide();
     });
 
-});
+}
 

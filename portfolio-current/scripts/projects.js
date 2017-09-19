@@ -6,8 +6,12 @@ $.getJSON("scripts/projects.json", function(result){
             $.each(result, function(i, field){
                 projects.push(field);
             });
-            console.log(projects);
+
+            /*
             projects.forEach(function(projectObject) {
+              listOfProjects.push(new Project(projectObject));
+            });*/
+            result.forEach(function(projectObject) {
               listOfProjects.push(new Project(projectObject));
             });
 
@@ -19,17 +23,14 @@ $.getJSON("scripts/projects.json", function(result){
 
 var listOfProjects = [];
 
-
 //CONSTRUCTOR for projects
 function Project(project){
     Object.assign(this, project);
 }
 
-
 Project.prototype.toHtml = function(){
 
   var projectTemplateScript = $("#projects-helpers-template").html();
-  console.log(projectTemplateScript);
 
   var projectTemplate = Handlebars.compile(projectTemplateScript);
 
@@ -38,8 +39,3 @@ Project.prototype.toHtml = function(){
   return compiledProjectHtml;
 
 };
-
-
-
-
-console.log(listOfProjects);

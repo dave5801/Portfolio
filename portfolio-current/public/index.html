@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!---->
+  <!--
+-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
   <link rel="stylesheet" href="style/main.css">
+  <script id="projects-helpers-template" type="text/x-handlebars-template">
+    <p>{{name}}</p>
+    <p>{{description}}</p>
+  </script>
+
+  <!--
   <script id="projects-helpers-template" type="text/x-handlebars-template">
     <table>
       <tr>
@@ -14,7 +21,7 @@
         <td> {{description}}</td>
       </tr>
     </table>
-  </script>
+  </script>-->
 <style>
 </style>
 </head>
@@ -32,11 +39,7 @@
 <div class="about-section">
   <h1>David Franklin</h1>
   <p>Code | Creativity | A Passion For Science</p>
-  <div id="social-media">
-    Follow me on Github and Social Media
-      <a href = "https://github.com/dave5801"><img src="assets/GitHub-Mark-32px.png"></a>
-      <a href = "https://www.linkedin.com/in/david-franklin-6063bba2/"><img src ="assets/linkedIn.png"></a>
-  </div>
+
 </div>
 
 <div class ="projects-section">
@@ -53,6 +56,16 @@
     Anyway, I will be describing my code/science projects in this section.
     I personally believe that combining science and web development is way to stand out.
   </p>
+</div>
+
+<div class="space-image">
+  <img src = "assets/europa-surface.png">
+  <img src = "assets/code-placeholder.png">
+</div>
+
+<div id="social-media">
+  <a href = "https://github.com/dave5801"><img src="assets/GitHub-Mark-Light-32px.png"></a>
+  <a href = "https://www.linkedin.com/in/david-franklin-6063bba2/"><img src ="assets/In-White-34px-R.png"></a>
 </div>
 <script src="scripts/projects.js"></script>
 <script src="scripts/main.js"></script>

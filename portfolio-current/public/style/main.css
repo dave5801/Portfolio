@@ -1,14 +1,25 @@
-body {margin:0;}
+body {
+  background-color: black;
+  margin:0;
+}
+
+h1{
+  font-weight: lighter;
+  font-family: helvetica;
+  color: white;
+}
 
 .mainNav {
   overflow: hidden;
   background-color: black;
+  font-weight: lighter;
+  font-family: helvetica;
 }
 
 .mainNav ul li {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #696969;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -47,12 +58,28 @@ body {margin:0;}
 
 }
 
-.about-section{}
+.about-section{
+  color: white;
+  font-family: Helvetica;
+  font-weight: lighter;
+  display: none;
+}
 
 .projects-section{
+  color: white;
+  font-family: Helvetica;
+  font-weight: lighter;
   display: none;
 }
 
 .writings-section{
+  color: white;
+  font-family: Helvetica;
+  font-weight: lighter;
   display: none;
 }
+
+.projects-placeholder{
+  display: inline-block;
+}
+

@@ -5,23 +5,12 @@
 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/base.css">
+  <link rel="stylesheet" href="style/modules.css">
   <script id="projects-helpers-template" type="text/x-handlebars-template">
     <p>{{name}}</p>
     <p>{{description}}</p>
   </script>
-
-  <!--
-  <script id="projects-helpers-template" type="text/x-handlebars-template">
-    <table>
-      <tr>
-        <th>{{name}}</th>
-      </tr>
-      <tr>
-        <td> {{description}}</td>
-      </tr>
-    </table>
-  </script>-->
 <style>
 </style>
 </head>
@@ -59,7 +48,8 @@
 </div>
 
 <div class="space-image">
-  <img src = "assets/europa-surface.png">
+  <img id="europa" src ="assets/europa-surface.png">
+  <img id="mars" src="assets/mars.png">
   <img src = "assets/code-placeholder.png">
 </div>
 

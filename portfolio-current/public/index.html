@@ -18,7 +18,7 @@
 
 <div class="mainNav" id="main-nav-section">
   <ul>
-    <li style="font-size:15px;" class="icon" onclick="respNav()">&#9776;</li>
+    <li style="font-size:15px;" class="icon" onclick="respNav()">&#9776;</li><!--NOTE - DO EVENT LISTENER INSEAD OF FUNCTION CALL-->
     <li id="about-tab">About</li>
     <li id="projects-tab">Projects</li>
     <li id="writings-tab">Writings</li>
@@ -60,5 +60,6 @@
 <script src="scripts/projects.js"></script>
 <script src="scripts/main.js"></script>
 <script src="scripts/resp.js"></script>
+<script>app.Project.loadProjects()</script>
 </body>
 </html>

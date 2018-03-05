@@ -1,6 +1,20 @@
 import React, { Component } from 'react';
 import './navbar.css';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
+const HomePage = () => (
+  <div>
+    <h2>Awesome Home Page</h2>
+  </div>
+);
+
+const AboutPage = () => (
+  <div>
+    <h2>Awesome About Page</h2>
+  </div>
+);
+
 
 class TopNav extends Component {
   render() {

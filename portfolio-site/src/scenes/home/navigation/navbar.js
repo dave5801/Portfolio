@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import './navbar.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import HomeImageSection from './../home-images/homeImageSection';
+
 
 const HomePage = () => (
   <div>
     <h2>Awesome Home Page</h2>
+    <HomeImageSection></HomeImageSection>
   </div>
 );
 

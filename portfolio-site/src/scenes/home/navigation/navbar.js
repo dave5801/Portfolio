@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './navbar.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import HomeImageSection from './../home-images/homeImageSection';
+import Writings from './../Writings/writings'
 
 
 const HomePage = () => (
@@ -11,13 +12,8 @@ const HomePage = () => (
   </div>
 );
 
-const Writings = () => (
-  <div>
-    <h2>Writings sounds more awesome and classier than Blog</h2>
-  </div>
-);
 
-const AboutMe = () => (
+const About = () => (
   <div>
     <h2>This is where I will write about how I awesome I am</h2>
   </div>
@@ -43,7 +39,7 @@ class Navbar extends Component {
               <Link to="/writings">Writings</Link>
             </li>
             <li>
-              <Link to="/aboutMe">About Me</Link>
+              <Link to="/about">About Me</Link>
             </li>
             <li>
               <Link to="/projects">Projects</Link>
@@ -51,7 +47,7 @@ class Navbar extends Component {
           </ul>
           <Route exact path="/" component={HomePage} />
           <Route path="/writings" component={Writings} />
-          <Route path="/aboutMe" component={AboutMe} />
+          <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           
         </div>

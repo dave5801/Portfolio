@@ -7,9 +7,9 @@ class HomeImageSection extends Component {
     return (
       <div className="Home-Image-Section">
         <h1>Home Page Images Here</h1>
-        <img src={ require('./images/code.png') } />
-        <img src={ require('./images/mars.png') } />
-        <img src={ require('./images/seattle.png') } />
+        <img src={ require('./images/code.png') }  alt="img1"/>
+        <img src={ require('./images/mars.png') }  alt="img2"/>
+        <img src={ require('./images/seattle.png') } alt="img3"/>
       </div>
     );
   }

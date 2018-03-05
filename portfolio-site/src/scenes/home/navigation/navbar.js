@@ -1,39 +1,55 @@
 import React, { Component } from 'react';
 import './navbar.css';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import HomeImageSection from './../home-images/homeImageSection';
 
-class TopNav extends Component {
+
+const HomePage = () => (
+  <div>
+    <h2>Awesome Home Page</h2>
+    <HomeImageSection></HomeImageSection>
+  </div>
+);
+
+const Writings = () => (
+  <div>
+    <h2>Writings sounds more awesome and classier than Blog</h2>
+  </div>
+);
+
+const AboutMe = () => (
+  <div>
+    <h2>This is where I will write about how I awesome I am</h2>
+  </div>
+);
+
+class Navbar extends Component {
   render() {
     return (
-      <div className="Navbar">
-        <Navbar inverse collapseOnSelect>
-          <Navbar.Header>
-            <Navbar.Brand>
-              <a href="#brand">My Awesome Logo</a>
-            </Navbar.Brand>
-          </Navbar.Header>
-          <Navbar.Collapse>
-            <Nav>
-              <NavItem eventKey={1} href="#">
-                Writings
-              </NavItem>
-              <NavItem eventKey={2} href="#">
-                Projects
-              </NavItem>
-            </Nav>
-            <Nav pullRight>
-              <NavItem eventKey={1} href="#">
-                Link Right
-              </NavItem>
-              <NavItem eventKey={2} href="#">
-                Link Right
-              </NavItem>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-      </div>
+      <Router>
+        <div className="Navbar">
+       
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/writings">Writings</Link>
+            </li>
+            <li>
+              <Link to="/aboutMe">About Me</Link>
+            </li>
+          </ul>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/writings" component={Writings} />
+           <Route path="/aboutMe" component={AboutMe} />
+          
+        </div>
+      </Router>
     );
   }
 }
 
-export default TopNav;
+
+
+export default Navbar;

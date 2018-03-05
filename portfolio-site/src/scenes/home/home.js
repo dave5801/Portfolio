@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import './home.css';
-import TopNav from './navigation/navbar';
-import HomeImageSection from './home-images/homeImageSection';
+import Navbar from './navigation/navbar';
+
 
 class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <h1>Home Content Here</h1>
-        <TopNav></TopNav>
-        <HomeImageSection></HomeImageSection>
+        <h1>Main Page</h1>
+        <Navbar></Navbar>
+        
       </div>
     );
   }

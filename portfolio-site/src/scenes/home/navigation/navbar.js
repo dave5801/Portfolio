@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './navbar.css';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const HomePage = () => (
@@ -15,39 +14,32 @@ const AboutPage = () => (
   </div>
 );
 
-
 class TopNav extends Component {
   render() {
     return (
-      <div className="Navbar">
-        <Navbar inverse collapseOnSelect>
-          <Navbar.Header>
-            <Navbar.Brand>
-              <a href="#brand">My Awesome Logo</a>
-            </Navbar.Brand>
-          </Navbar.Header>
-          <Navbar.Collapse>
-            <Nav>
-              <NavItem eventKey={1} href="#">
-                Writings
-              </NavItem>
-              <NavItem eventKey={2} href="#">
-                Projects
-              </NavItem>
-            </Nav>
-            <Nav pullRight>
-              <NavItem eventKey={1} href="#">
-                Link Right
-              </NavItem>
-              <NavItem eventKey={2} href="#">
-                Link Right
-              </NavItem>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-      </div>
+      <Router>
+        <div className="Navbar">
+       
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/topics">Topics</Link>
+            </li>
+          </ul>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/about" component={AboutPage} />
+          
+        </div>
+      </Router>
     );
   }
 }
+
+
 
 export default TopNav;

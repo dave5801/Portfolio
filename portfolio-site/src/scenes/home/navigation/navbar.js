@@ -1,29 +1,10 @@
 import React, { Component } from 'react';
 import './navbar.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import HomeImageSection from './../home-images/homeImageSection';
-import Writings from './../Writings/writings'
-
-
-const HomePage = () => (
-  <div>
-    <h2>Awesome Home Page</h2>
-    <HomeImageSection></HomeImageSection>
-  </div>
-);
-
-
-const About = () => (
-  <div>
-    <h2>This is where I will write about how I awesome I am</h2>
-  </div>
-);
-
-const Projects = () => (
-  <div>
-    <h2>This is where I will showcase my awesome projects</h2>
-  </div>
-);
+import Writings from './../Writings/writings';
+import HomePage from './../homepage/homepage';
+import About from './../About/about';
+import Projects from './../Projects/projects';
 
 class Navbar extends Component {
   render() {
@@ -39,7 +20,7 @@ class Navbar extends Component {
               <Link to="/writings">Writings</Link>
             </li>
             <li>
-              <Link to="/about">About Me</Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
               <Link to="/projects">Projects</Link>
@@ -55,7 +36,5 @@ class Navbar extends Component {
     );
   }
 }
-
-
 
 export default Navbar;

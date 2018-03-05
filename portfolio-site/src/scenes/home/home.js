@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './home.css';
 import Navbar from './navigation/navbar';
 
-
 class Home extends Component {
   render() {
     return (

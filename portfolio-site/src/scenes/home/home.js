@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './home.css';
-import TopNav from './navigation/navbar';
+import Navbar from './navigation/navbar';
 import HomeImageSection from './home-images/homeImageSection';
 
 class Home extends Component {
@@ -8,7 +8,7 @@ class Home extends Component {
     return (
       <div className="Home">
         <h1>Home Content Here</h1>
-        <TopNav></TopNav>
+        <Navbar></Navbar>
         <HomeImageSection></HomeImageSection>
       </div>
     );

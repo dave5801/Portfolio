@@ -8,13 +8,19 @@ const HomePage = () => (
   </div>
 );
 
-const AboutPage = () => (
+const Writings = () => (
   <div>
-    <h2>Awesome About Page</h2>
+    <h2>Writings sounds more awesome and classier than Blog</h2>
   </div>
 );
 
-class TopNav extends Component {
+const AboutMe = () => (
+  <div>
+    <h2>This is where I will write about how I awesome I am</h2>
+  </div>
+);
+
+class Navbar extends Component {
   render() {
     return (
       <Router>
@@ -25,14 +31,15 @@ class TopNav extends Component {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/writings">Writings</Link>
             </li>
             <li>
-              <Link to="/topics">Topics</Link>
+              <Link to="/aboutMe">About Me</Link>
             </li>
           </ul>
           <Route exact path="/" component={HomePage} />
-          <Route path="/about" component={AboutPage} />
+          <Route path="/writings" component={Writings} />
+           <Route path="/aboutMe" component={AboutMe} />
           
         </div>
       </Router>
@@ -42,4 +49,4 @@ class TopNav extends Component {
 
 
 
-export default TopNav;
+export default Navbar;

@@ -23,6 +23,12 @@ const AboutMe = () => (
   </div>
 );
 
+const Projects = () => (
+  <div>
+    <h2>This is where I will showcase my awesome projects</h2>
+  </div>
+);
+
 class Navbar extends Component {
   render() {
     return (
@@ -39,10 +45,14 @@ class Navbar extends Component {
             <li>
               <Link to="/aboutMe">About Me</Link>
             </li>
+            <li>
+              <Link to="/projects">Projects</Link>
+            </li>
           </ul>
           <Route exact path="/" component={HomePage} />
           <Route path="/writings" component={Writings} />
-           <Route path="/aboutMe" component={AboutMe} />
+          <Route path="/aboutMe" component={AboutMe} />
+          <Route path="/projects" component={Projects} />
           
         </div>
       </Router>

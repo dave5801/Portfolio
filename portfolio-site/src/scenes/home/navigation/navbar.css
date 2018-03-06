@@ -1,0 +1,12 @@
+.Navbar-elements{
+    background-color: black;
+    padding: 70px;
+
+}
+
+.Navbar-elements li{
+    display:inline;
+    padding: 50px;
+    font-family: Helvetica;
+    color: white;
+}

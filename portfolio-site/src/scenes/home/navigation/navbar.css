@@ -1,12 +1,13 @@
 .Navbar-elements{
     background-color: #181c1f;
-    text-decoration: none;
     padding: 50px;
 }
 
 .Nav-left {
+    list-style: none;
     padding: 5px;
     float:left;
+
 }
 
 .Nav-left li a {
@@ -19,6 +20,7 @@
 }
 
 .Nav-right {
+    list-style: none;
     display: flex;
     padding: 5px;
     float:right;

@@ -1,5 +1,5 @@
 .Navbar{
-    background-color: black;
+    background-color: #181c1f;
 }
 
 .Navbar-elements{
@@ -12,6 +12,6 @@
     font-size: 25px;
     font-family: Helvetica;
     font-weight: lighter;
-    color: white;
+    color: #C0C0C0;
     text-decoration: none;
 }

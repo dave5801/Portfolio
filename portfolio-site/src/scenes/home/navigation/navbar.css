@@ -1,10 +1,14 @@
 .Navbar{
     background-color: black;
-    
-    
+}
+
+.Navbar-elements{
+    display: flex;
+    padding: 100px;
 }
 
 .Navbar-elements li a{
+    padding: 20px;
     font-size: 25px;
     font-family: Helvetica;
     font-weight: lighter;

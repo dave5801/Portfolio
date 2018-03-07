@@ -1,12 +1,13 @@
-.Navbar-elements{
+.Navbar{
     background-color: black;
-    padding: 70px;
-
+    
+    
 }
 
-.Navbar-elements li{
-    display:inline;
-    padding: 50px;
+.Navbar-elements li a{
+    font-size: 25px;
     font-family: Helvetica;
+    font-weight: lighter;
     color: white;
+    text-decoration: none;
 }

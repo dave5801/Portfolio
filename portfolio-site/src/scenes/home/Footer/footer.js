@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
+import './footer.css';
 
-const Footer = () => (
-  <div>
-    <h2>LinkedIn | Twitter | Github</h2>
-  </div>
-);
+class Footer extends Component {
+  render() {
+    return (
+        <div className="Footer">
+            <p>LinkedIn | Twitter | Github</p>
+        </div>
+    );
+  }
+}
 
 export default Footer;

@@ -1,0 +1,10 @@
+.image-section{
+    background-color: black;
+    padding: 100px;
+}
+
+.image-section h2{
+    color: #C0C0C0;
+    font-weight: lighter;
+    font-family: Helvetica;
+}

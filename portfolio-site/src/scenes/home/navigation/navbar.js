@@ -10,9 +10,9 @@ class Navbar extends Component {
   render() {
     return (
       <Router>
-        <div className="Navbar">
-       
-          <ul>
+        <div className="Router-Main">
+          <div className="Navbar">
+           <ul className="Navbar-elements">
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -26,6 +26,7 @@ class Navbar extends Component {
               <Link to="/projects">Projects</Link>
             </li>
           </ul>
+          </div>
           <Route exact path="/" component={HomePage} />
           <Route path="/writings" component={Writings} />
           <Route path="/about" component={About} />

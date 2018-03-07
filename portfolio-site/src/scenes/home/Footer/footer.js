@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import './footer.css';
 
 class Footer extends Component {
   render() {
     return (
-        <div>
-            <h2>LinkedIn | Twitter | Github</h2>
+        <div className="Footer">
+            <p>LinkedIn | Twitter | Github</p>
         </div>
     );
   }

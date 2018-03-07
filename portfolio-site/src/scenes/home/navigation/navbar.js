@@ -13,12 +13,12 @@ class Navbar extends Component {
         <div className="Router-Main">
           <div className="Navbar">
             <ul className="Navbar-elements">
-              <div className="floatleft">
+              <div className="Nav-left">
                 <li>
                   <Link to="/">David Franklin - Awesome Engineer</Link>
                 </li>
               </div>
-              <div className="floatright">
+              <div className="Nav-right">
                 <li>
                   <Link to="/writings">Writings</Link>
                 </li>

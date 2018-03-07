@@ -1,15 +1,16 @@
-.Navbar{
+.Navbar-elements{
     background-color: #181c1f;
     text-decoration: none;
+    padding: 50px;
 }
 
-.floatleft {
-    padding: 25px;
+.Nav-left {
+    padding: 5px;
     float:left;
 }
 
-.floatleft li a {
-    padding: 25px;
+.Nav-left li a {
+    padding: 20px;
     font-size: 14px;
     font-family: Helvetica;
     font-weight: lighter;
@@ -17,13 +18,13 @@
     text-decoration: none;
 }
 
-.floatright {
+.Nav-right {
     display: flex;
-    padding: 25px;
+    padding: 5px;
     float:right;
 }
 
-.floatright li a{
+.Nav-right li a{
     padding: 20px;
     font-size: 14px;
     font-family: Helvetica;

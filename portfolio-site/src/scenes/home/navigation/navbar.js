@@ -11,7 +11,7 @@ class Navbar extends Component {
     return (
       <Router>
         <div className="Router-Main">
-          <div className="Navbar">
+          <div className="Navbar-main">
             <ul className="Navbar-elements">
               <div className="Nav-left">
                 <li>

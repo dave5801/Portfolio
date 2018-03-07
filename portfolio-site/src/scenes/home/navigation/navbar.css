@@ -1,39 +1,39 @@
-.Navbar-elements{
-    background-color: #181c1f;
+.Navbar-main{
     padding: 50px;
+    /*background-color: #181c1f;*/
+    background-color: blue;
+}
+
+.Navbar-elements{
+    /*background-color: #181c1f;*/
+    /*background-color: blue;*/
+   /* padding: 50px;*/
+}
+
+.Navbar-elements li a{
+    padding: 20px;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: lighter;
+    color: #C0C0C0;
+    text-decoration: none;
 }
 
 .Nav-left {
+    margin-bottom: 100px;
+    background-color: red;
     list-style: none;
     padding: 5px;
     float:left;
 
 }
 
-.Nav-left li a {
-    padding: 20px;
-    font-size: 14px;
-    font-family: Helvetica;
-    font-weight: lighter;
-    color: #C0C0C0;
-    text-decoration: none;
-}
-
 .Nav-right {
+    background-color: red;
     list-style: none;
     display: flex;
     padding: 5px;
     float:right;
-}
-
-.Nav-right li a{
-    padding: 20px;
-    font-size: 14px;
-    font-family: Helvetica;
-    font-weight: lighter;
-    color: #C0C0C0;
-    text-decoration: none;
-
 }
 
 a:hover { 

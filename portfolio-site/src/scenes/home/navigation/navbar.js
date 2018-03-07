@@ -34,8 +34,7 @@ class Navbar extends Component {
           <Route exact path="/" component={HomePage} />
           <Route path="/writings" component={Writings} />
           <Route path="/about" component={About} />
-          <Route path="/projects" component={Projects} />
-          
+          <Route path="/projects" component={Projects} /> 
         </div>
       </Router>
     );

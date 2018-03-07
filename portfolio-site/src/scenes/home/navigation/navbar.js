@@ -12,26 +12,29 @@ class Navbar extends Component {
       <Router>
         <div className="Router-Main">
           <div className="Navbar">
-           <ul className="Navbar-elements">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/writings">Writings</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/projects">Projects</Link>
-            </li>
-          </ul>
+            <ul className="Navbar-elements">
+              <div className="Nav-left">
+                <li>
+                  <Link to="/">David Franklin - Awesome Engineer</Link>
+                </li>
+              </div>
+              <div className="Nav-right">
+                <li>
+                  <Link to="/writings">Writings</Link>
+                </li>
+                <li>
+                  <Link to="/about">About</Link>
+                </li>
+                <li>
+                  <Link to="/projects">Projects</Link>
+                </li>
+              </div>
+            </ul>
           </div>
           <Route exact path="/" component={HomePage} />
           <Route path="/writings" component={Writings} />
           <Route path="/about" component={About} />
-          <Route path="/projects" component={Projects} />
-          
+          <Route path="/projects" component={Projects} /> 
         </div>
       </Router>
     );

@@ -4,14 +4,20 @@
 
 .Navbar-elements{
     display: flex;
-    padding: 100px;
+    padding: 10px;
+    list-style-type: none;
 }
 
 .Navbar-elements li a{
     padding: 20px;
-    font-size: 25px;
+    font-size: 14px;
     font-family: Helvetica;
     font-weight: lighter;
     color: #C0C0C0;
     text-decoration: none;
+}
+
+a:hover { 
+border-bottom: 2px solid #F117B4;
+text-decoration: none; 
 }

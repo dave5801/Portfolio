@@ -8,14 +8,15 @@ class Footer extends Component {
     return (
         <Router>
             <div className="Footer">
-                <ul>
-                    <li><Link to="/">LinkedIn</Link></li>
-                    <li><Link to="/">Github</Link></li>
-                    <li><Link to="/">Twitter</Link></li>
+                <ul className="Footer-elements-left">
+                    <li className="social-link">Social Media | </li>
+                    <li><Link to="/" className="social-link">LinkedIn</Link></li>
+                    <li><Link to="/" className="social-link">Github</Link></li>
+                    <li><Link to="/" className="social-link">Twitter</Link></li>
                 </ul>
-               
-                
-                
+                <ul className="Footer-elements-right">
+                    <li className="social-link">2018 The Franklin Research Initiative </li>     
+                </ul>  
             </div>
         </Router>
     );

@@ -1,10 +1,33 @@
 .Footer{
+   display: flex;
+}
+
+.Footer-elements-left{
+    padding: 5px;
+    display: flex;
+    list-style: none;
+}
+
+.Footer-elements-left li{
+    padding: 10px;
+}
+
+.social-link{
     font-family: Helvetica;
     font-weight: lighter;
     color: #8b939b;
+    text-decoration: none;
 }
 
-.Footer ul li{
+.Footer-elements-right{
+    margin-left: 400px;
+    padding: 5px;
+    display: flex;
     list-style: none;
-    /*text-decoration: none;*/
+    color: #8b939b;
+}
+
+.Footer-elements-right li{
+    font-size: 10px;
+    padding: 10px;
 }

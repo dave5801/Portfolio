@@ -1,27 +1,25 @@
 .Navbar-main{
-    padding: 50px;
-    /*background-color: #181c1f;*/
     background-color: blue;
 }
 
 .Navbar-elements{
-    /*background-color: #181c1f;*/
-    /*background-color: blue;*/
-   /* padding: 50px;*/
+    background-color: #181c1f;
+    padding-bottom: 30px;
 }
 
 .Navbar-elements li a{
-    padding: 20px;
-    font-size: 14px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
     font-family: Helvetica;
-    font-weight: lighter;
-    color: #C0C0C0;
+    color: #8b939b;
     text-decoration: none;
 }
 
 .Nav-left {
-    margin-bottom: 100px;
-    background-color: red;
+    font-size: 18px;
+    font-variant: small-caps;
     list-style: none;
     padding: 5px;
     float:left;
@@ -29,10 +27,12 @@
 }
 
 .Nav-right {
-    background-color: red;
+    font-size: 14px;
+    font-weight: lighter;
     list-style: none;
     display: flex;
-    padding: 5px;
+    padding-top: 10px;
+    padding-right: 10px;
     float:right;
 }
 

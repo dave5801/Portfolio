@@ -1,6 +1,10 @@
 .Footer{
-    color: white;
     font-family: Helvetica;
     font-weight: lighter;
-    color: #C0C0C0;
+    color: #8b939b;
+}
+
+.Footer ul li{
+    list-style: none;
+    /*text-decoration: none;*/
 }

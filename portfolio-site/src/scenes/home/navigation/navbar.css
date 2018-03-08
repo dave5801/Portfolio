@@ -36,7 +36,7 @@
     float:right;
 }
 
-a:hover { 
+.Nav-right a:hover { 
     border-bottom: 2px solid #F117B4;
     text-decoration: none; 
 }

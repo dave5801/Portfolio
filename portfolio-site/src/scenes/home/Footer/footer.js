@@ -9,7 +9,8 @@ class Footer extends Component {
         <Router>
             <div className="Footer">
                 <ul className="Footer-elements-left">
-                    <li className="social-link">Social Media | </li>
+                    <li className="social-link">Social Media </li>
+                    <li>|</li>
                     <li><Link to="/" className="social-link">LinkedIn</Link></li>
                     <li><Link to="/" className="social-link">Github</Link></li>
                     <li><Link to="/" className="social-link">Twitter</Link></li>

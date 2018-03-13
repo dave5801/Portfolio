@@ -10,6 +10,7 @@ class Navbar extends Component {
   render() {
     return (
       <Router>
+        <Burger onClick={this.handleToggleDrawer} />
         <div className="Router-Main">
           <div className="Navbar-main">
             <ul className="Navbar-elements">

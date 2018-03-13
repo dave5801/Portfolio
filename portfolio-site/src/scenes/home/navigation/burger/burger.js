@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import burger from 'images/icons/menu.svg';
+import burger from './menu.svg';
 import styles from './burger.css';
 
 function Burger(props) {

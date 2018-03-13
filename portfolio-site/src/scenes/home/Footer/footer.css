@@ -7,9 +7,11 @@
     padding: 5px;
     display: flex;
     list-style: none;
+    padding: 10px;
 }
 
-.Footer-elements-left li{
+.Footer-elements-left li a{
+    text-decoration: none;
     padding: 10px;
 }
 
@@ -17,7 +19,7 @@
     font-family: Helvetica;
     font-weight: lighter;
     color: #8b939b;
-    text-decoration: none;
+    
 }
 
 .Footer-elements-right{
@@ -25,6 +27,7 @@
     padding: 5px;
     display: flex;
     list-style: none;
+
     color: #8b939b;
 }
 

@@ -10,10 +10,9 @@ class Footer extends Component {
             <div className="Footer">
                 <ul className="Footer-elements-left">
                     <li className="social-link">Social Media </li>
-                    <li>|</li>
-                    <li><Link to="/" className="social-link">LinkedIn</Link></li>
-                    <li><Link to="/" className="social-link">Github</Link></li>
-                    <li><Link to="/" className="social-link">Twitter</Link></li>
+                    <li><a href="https://github.com/dave5801">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/david-franklin-6063bba2/">LinkedIn</a></li>
+                    <li><a href="https://twitter.com/dave58011">Twitter</a></li>
                 </ul>
                 <ul className="Footer-elements-right">
                     <li className="social-link">2018 The Franklin Research Initiative </li>     

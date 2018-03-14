@@ -1,5 +1,6 @@
 .Navbar-main{
     background-color: blue;
+
 }
 
 .Navbar-elements{
@@ -54,9 +55,14 @@
 }
 
 @media screen and (max-width: 779px) /* Tablet */ {
+    .Nav-right{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    /*
 .Nav-right {
     display: none;
-  }
+  }*/
+
 }
-
-

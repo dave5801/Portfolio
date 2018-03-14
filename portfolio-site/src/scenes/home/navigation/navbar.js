@@ -5,14 +5,12 @@ import Writings from './../Writings/writings';
 import HomePage from './../homepage/homepage';
 import About from './../About/about';
 import Projects from './../Projects/projects';
-import Burger from './burger/burger';
 
 class Navbar extends Component {
   render() {
     return (
       <Router>
         <div className="Router-Main">
-          <Burger onClick={this.handleToggleDrawer} />
           <div className="Navbar-main">
             <ul className="Navbar-elements">
               <div className="Nav-left">

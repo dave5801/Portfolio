@@ -1,5 +1,7 @@
 .Navbar-main{
    /* background-color: blue;*/
+   display: block;
+
 
 }
 
@@ -62,7 +64,7 @@
 @media screen and (max-width: 779px) /* Tablet */ {
     
     .Nav-right{
-        float: none;
+        float: left;
         /*display: block;*/
         display: inline-block;
         padding: 50px;

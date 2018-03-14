@@ -11,16 +11,17 @@
     padding: 30px;
    /* padding-bottom: 30px;*/
   /* display: block;*/
+
 }
 
-.Navbar-elements li a{
+.Navbar-elements li .Link{
     padding-top: 50px;
     padding-right: 10px;
     padding-bottom: 5px;
     padding-left: 10px;
     font-family: Helvetica;
     color: #8b939b;
-    text-decoration: none;
+    /*text-decoration: none;*/
 }
 
 .Nav-left {
@@ -30,7 +31,7 @@
     list-style: none;
     padding: 5px;
     float:left;
-
+    text-decoration: none;
 }
 
 .Nav-right {
@@ -73,7 +74,7 @@
         padding: 50px;
         text-align: left;
     }
-    .Navbar-elements li a{
+    .Navbar-elements li {
         padding-bottom: 5px;
     }
     /*

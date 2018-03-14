@@ -1,10 +1,11 @@
 .Navbar-main{
-    background-color: blue;
+   /* background-color: blue;*/
 
 }
 
 .Navbar-elements{
-    background-color: #181c1f;
+   /* background-color: #181c1f;*/
+    background-color: red;
     padding-bottom: 30px;
 }
 
@@ -19,6 +20,7 @@
 }
 
 .Nav-left {
+    background-color: blue;
     font-size: 18px;
     font-variant: small-caps;
     list-style: none;
@@ -28,6 +30,7 @@
 }
 
 .Nav-right {
+    background-color: green;
     font-size: 14px;
     font-weight: lighter;
     list-style: none;
@@ -57,7 +60,9 @@
 @media screen and (max-width: 779px) /* Tablet */ {
     .Nav-right{
         float: none;
-        display: block;
+        /*display: block;*/
+        display: inline-block;
+        padding: 50px;
         text-align: left;
     }
     /*

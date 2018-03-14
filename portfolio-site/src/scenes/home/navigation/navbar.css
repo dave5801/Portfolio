@@ -6,11 +6,11 @@
 }
 
 .Navbar-elements{
-   /* background-color: #181c1f;*/
-    background-color: red;
+    background-color: #181c1f;
+    /*background-color: red;*/
     padding: 30px;
    /* padding-bottom: 30px;*/
-   display: block;
+  /* display: block;*/
 }
 
 .Navbar-elements li a{
@@ -24,7 +24,7 @@
 }
 
 .Nav-left {
-    background-color: blue;
+    /*background-color: blue;*/
     font-size: 18px;
     font-variant: small-caps;
     list-style: none;
@@ -69,6 +69,9 @@
         display: inline-block;
         padding: 50px;
         text-align: left;
+    }
+    .Navbar-elements li a{
+    padding: 10px;
     }
     /*
 .Nav-right {

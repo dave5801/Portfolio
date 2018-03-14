@@ -6,7 +6,9 @@
 .Navbar-elements{
    /* background-color: #181c1f;*/
     background-color: red;
-    padding-bottom: 30px;
+    padding: 30px;
+   /* padding-bottom: 30px;*/
+   display: block;
 }
 
 .Navbar-elements li a{
@@ -58,6 +60,7 @@
 }
 
 @media screen and (max-width: 779px) /* Tablet */ {
+    
     .Nav-right{
         float: none;
         /*display: block;*/

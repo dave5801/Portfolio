@@ -10,12 +10,7 @@ import Projects from './../Projects/projects';
 
 class Navbar extends Component {
   render() {
-
-    var linkStyle = {
-      textDecoration: 'none', 
-      color: 'white'
-    };
-
+    
     return (
       <Router>
         <div className="Router-Main">

@@ -6,8 +6,8 @@
 }
 
 .Navbar-elements{
-    /*background-color: #181c1f;*/
-    background-color: red;
+    background-color: #181c1f;
+    /*background-color: red;*/
     padding: 30px;
    /* padding-bottom: 30px;*/
   /* display: block;*/
@@ -28,7 +28,7 @@
 }
 
 .Nav-left {
-    background-color: blue;
+   /* background-color: blue;*/
     font-size: 18px;
     font-variant: small-caps;
     list-style: none;
@@ -38,7 +38,7 @@
 }
 
 .Nav-right {
-    background-color: green; 
+    /*background-color: green; */
     font-size: 14px;
     font-weight: lighter;
     list-style: none;
@@ -73,6 +73,8 @@
         float: none;
     }
     .Nav-right{
+       /* background-color: #181c1f;*/
+       background-color: green;
         float: left;
         /*display: block;*/
         display: inline-block;

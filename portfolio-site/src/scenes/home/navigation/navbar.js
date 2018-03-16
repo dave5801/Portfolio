@@ -6,8 +6,16 @@ import HomePage from './../homepage/homepage';
 import About from './../About/about';
 import Projects from './../Projects/projects';
 
+
+
 class Navbar extends Component {
   render() {
+
+    var linkStyle = {
+      textDecoration: 'none', 
+      color: 'white'
+    };
+
     return (
       <Router>
         <div className="Router-Main">
@@ -15,18 +23,18 @@ class Navbar extends Component {
             <ul className="Navbar-elements">
               <div className="Nav-left">
                 <li>
-                  <Link to="/" style={{ textDecoration: 'none' }}>A Passion for Engineering</Link>
+                  <Link to="/" style={{textDecoration: 'none', color: '#8b939b'}}>A Passion for Engineering</Link>              
                 </li>
               </div>
               <div className="Nav-right">
                 <li>
-                  <Link to="/writings" style={{ textDecoration: 'none' }}>Writings</Link>
+                  <Link to="/writings" style={{textDecoration: 'none', color: '#8b939b'}}>Writings</Link>
                 </li>
                 <li>
-                  <Link to="/about" style={{ textDecoration: 'none' }}>About</Link>
+                  <Link to="/about" style={{textDecoration: 'none', color: '#8b939b'}}>About</Link>
                 </li>
                 <li>
-                  <Link to="/projects" style={{ textDecoration: 'none' }}>Projects</Link>
+                  <Link to="/projects" style={{textDecoration: 'none', color: '#8b939b'}}>Projects</Link>
                 </li>
               </div>
             </ul>

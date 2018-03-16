@@ -15,18 +15,18 @@ class Navbar extends Component {
             <ul className="Navbar-elements">
               <div className="Nav-left">
                 <li>
-                  <Link to="/">A Passion for Engineering</Link>
+                  <Link to="/" style={{ textDecoration: 'none' }}>A Passion for Engineering</Link>
                 </li>
               </div>
               <div className="Nav-right">
                 <li>
-                  <Link to="/writings">Writings</Link>
+                  <Link to="/writings" style={{ textDecoration: 'none' }}>Writings</Link>
                 </li>
                 <li>
-                  <Link to="/about">About</Link>
+                  <Link to="/about" style={{ textDecoration: 'none' }}>About</Link>
                 </li>
                 <li>
-                  <Link to="/projects">Projects</Link>
+                  <Link to="/projects" style={{ textDecoration: 'none' }}>Projects</Link>
                 </li>
               </div>
             </ul>

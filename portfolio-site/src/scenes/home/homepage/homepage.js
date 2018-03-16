@@ -5,8 +5,10 @@ import './homepage.css'
 
 const HomePage = () => (
   <div className="image-section">
+    <div className="home-container">
+        <HomeImageSection></HomeImageSection>
+    </div>
     <h2>Science | Software | Learning</h2>
-    <HomeImageSection></HomeImageSection>
   </div>
 );
 

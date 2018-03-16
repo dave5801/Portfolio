@@ -1,59 +1,42 @@
 .Navbar-main{
-   /* background-color: blue;*/
    display: block;
-
-
 }
 
 .Navbar-elements{
-    /*background-color: #181c1f;*/
-    background-color: red;
+    background-color: #010b19;
     padding: 30px;
-   /* padding-bottom: 30px;*/
-  /* display: block;*/
-
 }
 
-/* appears to do nothing yet
-.Navbar-elements li .Link{
-    padding-top: 50px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    font-family: Helvetica;
-    color: #8b939b;
-}*/
 .Nav-left li{
     text-decoration: none;
 }
 
 .Nav-left {
-    background-color: blue;
     font-size: 18px;
     font-variant: small-caps;
     list-style: none;
     padding: 5px;
     float:left;
-    
 }
 
 .Nav-right {
-    background-color: green; 
     font-size: 14px;
     font-weight: lighter;
     list-style: none;
     display: flex;
-    padding-top: 10px;
-    padding-right: 10px;
+    margin-right: 40px;
+    font-size:16px;
     float:right;
+}
+
+.Nav-right a {
+    margin: 0.7rem;
 }
 
 .Nav-right a:hover { 
     border-bottom: 2px solid #F117B4;
     text-decoration: none; 
 }
-
-
 
 @media screen and (max-width: 1000px) {
   .Nav-right {
@@ -71,18 +54,10 @@
         float: none;
     }
     .Nav-right{
+        background-color: #021631;
         float: left;
-        /*display: block;*/
         display: inline-block;
-        padding: 50px;
+        padding: 25px;
         text-align: left;
     }
-    .Navbar-elements li {
-        padding-bottom: 5px;
-    }
-    /*
-.Nav-right {
-    display: none;
-  }*/
-
 }

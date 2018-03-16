@@ -43,17 +43,19 @@
     font-weight: lighter;
     list-style: none;
     display: flex;
-    padding-top: 10px;
-    padding-right: 10px;
+    margin-right: 40px;
+    font-size:16px;
     float:right;
+}
+
+.Nav-right a {
+    margin: 0.7rem;
 }
 
 .Nav-right a:hover { 
     border-bottom: 2px solid #F117B4;
     text-decoration: none; 
 }
-
-
 
 @media screen and (max-width: 1000px) {
   .Nav-right {

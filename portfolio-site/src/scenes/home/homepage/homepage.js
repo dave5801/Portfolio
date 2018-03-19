@@ -5,9 +5,7 @@ import './homepage.css'
 
 const HomePage = () => (
   <div className="image-section">
-    <div className="home-container">
-        <HomeImageSection></HomeImageSection>
-    </div>
+    <HomeImageSection></HomeImageSection> 
     <h2>Science | Software | Learning</h2>
   </div>
 );

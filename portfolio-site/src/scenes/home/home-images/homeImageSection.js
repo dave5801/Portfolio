@@ -6,7 +6,8 @@ const HomeImageSection = () => (
     <div className="images">
         <div>
             <h1>Image 1</h1>
-            <img src={ require('./images/atlantis.png') }  alt="img1"/>
+        {/*
+            <img src={ require('./images/atlantis.png') }  alt="img1"/>*/}
         </div>
 
         <div>

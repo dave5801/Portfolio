@@ -1,7 +1,5 @@
 .Home-Image-Section{
-   border-radius: 25px;
-   /*background-color: red;*/
-   
+   border-radius: 25px;   
 }
 
 img{
@@ -12,5 +10,5 @@ img{
 .images div{
    border-radius: 10px;
    background-color: blue;
-   
+   display: inline-flex;   
 }

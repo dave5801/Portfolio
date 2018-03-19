@@ -1,4 +1,5 @@
 import React from 'react';
+import './homeImageSections.css';
 
 const HomeImageSection = () => (
   <div className="Home-Image-Section">

@@ -1,9 +1,24 @@
 import React from 'react';
+import './homeImageSections.css';
 
 const HomeImageSection = () => (
   <div className="Home-Image-Section">
-    <h1>Hello World</h1>
-    <img src={ require('./images/atlantis.png') }  alt="img1"/>
+    <div className="images">
+        <div>
+
+            <img src={ require('./images/atlantis.png') }  alt="img1"/>
+        </div>
+
+        <div>
+
+            <img src={ require('./images/mars.png') }  alt="img1"/>
+        </div>
+
+        <div>
+
+            <img src={ require('./images/seattle.png') }  alt="img1"/>
+        </div>
+    </div>
   </div>
 );
 

@@ -57,7 +57,13 @@
         background-color: #021631;
         float: left;
         display: inline-block;
-        padding: 25px;
+        padding: 10px;
         text-align: left;
     }
+
+    .Nav-right li {
+        padding-bottom: 10px;
+}
+
+
 }

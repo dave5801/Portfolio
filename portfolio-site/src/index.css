@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #010b19;
+  /*background-color: #010b19;*/
+  background-color: black;
   font-family: sans-serif;
 }

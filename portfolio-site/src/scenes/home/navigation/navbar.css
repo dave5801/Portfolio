@@ -54,6 +54,7 @@
         float: none;
     }
     .Nav-right{
+        border-radius: 15px;
         background-color: #021631;
         float: left;
         display: inline-block;

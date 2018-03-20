@@ -1,6 +1,5 @@
 .Footer{
    display: flex;
-   /*display: block;*/
    color: #8b939b;
 }
   
@@ -14,7 +13,7 @@
 
 .Footer-elements-left {
     padding: 5px;
-    /*display: flex;*/
+    display: flex;
     list-style: none;
     padding: 10px;
 }
@@ -26,9 +25,9 @@
 }
 
 .Footer-elements-right{
-   /* margin-left: 400px;*/
+    margin-left: 400px;
     padding: 5px;
-   /* display: flex;*/
+    display: flex;
     list-style: none;
     color: #8b939b;
 }
@@ -40,6 +39,15 @@
 
 @media screen and (max-width: 779px) /* Tablet */ {
     .Footer{
+        display:block;
+    }
+
+    .Footer-elements-left{
+        display:block;
+    }
+
+    .Footer-elements-right{
+        margin-left: 0px;
         display:block;
     }
 }

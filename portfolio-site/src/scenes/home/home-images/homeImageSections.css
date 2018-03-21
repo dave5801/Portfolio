@@ -1,14 +1,23 @@
 .Home-Image-Section{
-   border-radius: 25px;   
+   border-radius: 25px;
+   background-color: red;
+   padding: 2px;
+   max-height: 300px;
+   min-height: 300px;
 }
 
 img{
+    border-radius: 10px;
+    /**/
     max-height: 100px;
-    min-height: 100px;
+    min-height: 100px; 
+    /*max-width: auto;
+    max-height: auto; */
+   
+    padding: 2px;  
 }
 
 .images div{
-   border-radius: 50%;
-   background-color: blue;
+
    display: inline-flex;   
 }
